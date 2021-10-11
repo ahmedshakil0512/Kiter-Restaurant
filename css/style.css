@@ -1,0 +1,372 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+
+/*====================== home-secvtion starts here ============== */
+.bg-navbar{
+    background:rgba(0, 0, 0, 0.603);
+    border-bottom: 2px solid #ff402f;
+
+}
+
+.style-list{
+    display: inline-block;
+    text-decoration: none;
+    overflow:hidden;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    margin: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+    border-radius: 25px;   
+}
+.style-list:hover{
+    background: #ff402f;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+
+ 
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+    
+}
+.carousel-menu{
+    background: black;
+}
+.carousel-caption{
+    padding-bottom: 150px;
+}
+.carousel-caption h1{
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+
+}
+.carousel-indicators{
+    padding-bottom: 30px;
+}
+
+.carousel-content h1{
+    font-size: 58px;
+    font-weight: bold;
+}
+.get-now{
+    border: 2px solid #ff402f ;
+    background:#ff402f;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    outline: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.get-now:hover{
+    background: white;
+    color: #ff402f;
+   
+}
+/*================== home-secvtion ends here ===============  */
+/*================== delivery-section starts here ============== */
+
+.blog-1{
+    
+    padding: 20px 25px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    
+}
+.blog-1 h4{
+    color: #ff402f ;
+}
+.blog{
+
+  padding: 20px 25px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 4px;
+
+}
+
+.blog img{
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: -50px;
+
+}
+.blog h4{
+    color: #ff402f ;
+}
+.order-buttons{
+    width: 150px;
+    border: 2px solid #ff402f ;
+    background:#ff402f;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    outline: none;
+    text-transform: uppercase;
+    transition: .5s;
+    box-shadow: 1px 3px 10px gray ;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.order-buttons:hover{
+    background: white;
+    color: #ff402f;
+}
+/*================== delivery-section ends here ============== */
+
+/*==================== burger-section starts here ============  */
+.burger-main{
+    background:#ff402f;
+}
+
+.borger-contents{
+    padding-bottom: 40px;
+}
+.borger-contents h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 69px;
+}
+.borger-contents p {
+    font-size: larger;
+    color: white;
+    /* padding-right: 100px; */
+}
+.borger-contents button {
+    border: 2px solid #ff402f;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #ff402f;
+    font-weight: bold;
+    box-shadow: 1px 1px 6px grey;
+}
+/*==================== burger-section ends here   ============ */
+/*==================== pizza-section starts here  ============  */
+.pizza-contents h4{
+    color: #ff402f;
+    font-weight: bold;
+}
+.pizza-contents h2{
+    color: #1d2228;
+    font-weight: bold;
+}
+.pizza-buttons{
+    color: white;
+    border: 2px solid #ff402f ;
+    font-weight: bold;
+    background:#ff402f;
+    padding:8px 12px;
+    border-radius: 25px;
+    transition: .3s;
+    box-shadow: 1px 3px 10px gray ;
+}
+.pizza-buttons:hover{
+    background: white;
+    color:#ff402f;
+
+}
+.buttons button i{
+    width: 55px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top:30px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: .3s;
+}
+.buttons button i:hover{
+     width: 55px;
+     height: 50px;
+     color: white;
+     background:#ff402f;
+     border-radius: 100%;
+}
+
+/*==================== pizza-section ends here  ============  */
+
+/*==================== food-gallary section starts here ======= */
+.food-gallery{
+    background:#ff402f;
+}
+.food-main{
+    padding-bottom: 50px;
+}
+.food-main li{
+    display: inline-block;
+    margin: 11px;
+   
+   
+}
+.food-main li a{
+    text-decoration: none;
+    color:white;
+}
+
+.food-list{
+    font-weight: bold;
+    background:#ff402f;
+    border: 2px solid white;
+    padding:8px 12px;
+    margin-bottom:40px;
+    border-radius: 25px;
+    transition: .3s;
+}
+.food-list:hover{
+    background:white;
+    border: 2px solid white;
+    color: #ff402f;
+}
+/*==================== food-gallary section ends here ========= */
+
+/*==================== testimonil-section starts here ========= */
+.box{
+    padding: 30px;
+}
+.box i{
+    font-size: 40px;
+    color:#ff402f;
+    margin-top: -60px;
+    margin-bottom: 15px;
+}
+.box h5{
+    color:#ff402f ;
+}
+.castomar-buttons button i{
+    color: black ;
+    font-size: 25px;
+}
+/*==================== testimonil-section  ends here  ========= */
+/*==================== statis-section starts here =============*/
+.statis-section{
+    background:#ff402f;
+ 
+}
+.statis-content{
+    padding: 1% 12%;
+}
+.statis-single{
+    background: white;
+    padding: 75px 0px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 18px #691f1f;
+}
+.statis-single h1 {
+    font-weight: bold;
+    color: #ff402f;
+    font-size: 70px;
+}
+/*==================== statis-section ends here =============*/
+/*=================== subscribe-section starts here =========  */
+.subscribe-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.671)), url('../img/secbanner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 80vh;
+    
+}
+.subscribe{
+    background: white;
+    padding: 50px 40px;
+    margin-top:90px;
+    border-radius: 10px;
+}
+.subscribe h1{
+    font-weight: bold;
+}
+.email-box{
+    border: 2px solid #ff402f;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.subscribe button{
+    border:2px solid #ff402f; 
+    padding: 8px 12px;
+    background:#ff402f;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: .5s;
+    box-shadow: 1px 3px 10px gray ;
+
+}
+.subscribe button:hover{
+    background:white;
+    color: #ff402f;
+}
+/*=================== subscribe-section ends here =========  */
+/*=================== footer-section starts here =========  */
+.foooter-row{
+    border-bottom: 2px solid #ff402f;
+
+}
+.footer-blog{
+    margin-bottom: 40px;
+}
+.list-unstyled li{
+    margin: 6px 0px;
+    color: #333;
+    font-size: 18px;
+    transition: .2;
+}
+.list-unstyled li:hover{
+    color: #ff402f;
+}
+.social-icons i{
+    width: 40px;
+    background:red;
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+    color: white;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.social-icons i:nth-child(1){
+    background:#3b579d;
+}
+.social-icons i:nth-child(2){
+    background:#2caae1;
+}
+.social-icons i:nth-child(3){
+    background:#e4405f;
+}
+.social-icons i:nth-child(4){
+    background:#0077b5;
+}
+.creadit{
+    color:#ff402f ;
+    font-weight: bold;
+}
+/*=================== footer-section ends here =========  */
